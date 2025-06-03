@@ -1,0 +1,38 @@
+
+body {
+  font-family: sans-serif;
+  background-color:blanchedalmond(240, 215, 183);
+}
+
+#box {
+  padding: 8px;
+  margin: 16px auto;
+}
+
+h1 {
+  color: black;
+  font-weight: 300;
+  text-align: center;
+  padding: 60px;
+  border: 150px;
+  margin: 20px;
+} 
+
+.recplist {
+  color: black;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 30px;
+  margin: 20px;
+}
+
+.recplist li {
+  display: block;
+  width: 40px;
+  padding: 60px;
+  font-size: smaller;
+  text-align: center;
+  background-color:floralwhite;
+  flex: 1;
+}
